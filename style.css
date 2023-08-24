@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+.container {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.btn {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.timers {
+    font-size: 40px;
+}
